@@ -3,27 +3,8 @@
 <title>Database</title>
 </head>
 <body>
-<p>Sample content</p>
 <?php
-include('connect-mysqul.php');
-
-$sqlget = "SELECT * FROM 'Pokedex'";
-
-$sqldata = mysqli_query($dbcon, $sqlget);
-
-echo <table>;
-echo <tr><th>No.</th><th>Name</th></tr>;
-
-while($row = mysqli_fetch_array($sqldata, MYSQLI_ASSOC))
-{
-	echo "<tr><td>";
-	echo $row['No.'];
-	echo "</td><td>";
-	echo $row['Name'];
-	echo "</td></tr>";
-}
-
-echo "</table>";
+echo "<h1>Test</h1>";
 ?>
 </body>
 </html>
