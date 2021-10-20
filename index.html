@@ -4,5 +4,25 @@
 </head>
 <body>
 <p>Sample content</p>
+<?php
+include('connect-mysqul.php');
+
+$sqlget = "SELECT * FROM 'Pokedex'";
+
+$sqldata = mysqli_query($dbcon, $sqlget);
+
+echo "<table>";
+
+while($row = mysqli_fetch_array($sqldata, MYSQLI_ASSOC))
+{
+	echo "<tr><td>";
+	echo $row['No.'];
+	echo "</td><td>";
+	echo $row['Name'];
+	echo "</td></tr>";
+}
+
+echo "</table>";
+?>
 </body>
 </html>
