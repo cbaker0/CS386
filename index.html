@@ -12,7 +12,7 @@ $sqlget = "SELECT * FROM 'Pokedex'";
 $sqldata = mysqli_query($dbcon, $sqlget);
 
 echo <table>
-echo "<tr><th>No.</th><th>Name</th></tr>"
+echo <tr><th>No.</th><th>Name</th></tr>
 
 while($row = mysqli_fetch_array($sqldata, MYSQLI_ASSOC))
 {
