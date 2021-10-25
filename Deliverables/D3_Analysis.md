@@ -1,0 +1,11 @@
+Analysis
+Group 06 – Project Jacks
+Date and location: October 7, 2021
+Group Members: Carlea Baker, Alenn Wright, Matthew Martinez, Ricardo Chairez
+
+1. System Description
+The problem of an Inadequate jacks scheduler ruining college student’s school careers ; whether it is the impact of impossible schedules, Classes being scheduled without regards to the class prerequisites, and no time planned out to travel to the next classes. For college students who have trouble making their schedule and want the ease to have a generated schedule, MyScheduler is a web application that will generate an appropriate schedule respective of distance and requirements; unlike Jack’s Scheduler, our product will not just cram the planner classes for the semester where it sees space just to make a cart work. MyScheduler is a web based class schedule generation tool that allows college students to save the hassle over having to fix and recreate their class schedule, considering the break time between classes and classes needed for your degree so that the core classes are planned before trying to shove in the liberal art classes.
+Many Students at NAU often have to rush to classes or will always show up late to classes because the jack’s scheduler does not put padding between the classes for it. MyScheduler will use a database of distance and travel times to get an acceptable travel time and consider the padding between classes so that you do not have to be late to a class and risk being dropped from a course. Another feature we will implement is that My Scheduler will prioritize the core classes for your major first so that students do not have to reconfigure their semester by hand or even worse spend another semester or more in school.
+One of the great things Myscheduler will also do is allow you to hover over footnotes of the classes to get quick information on the classes. The scheduler will also show an indicator when a class is a core class and that it is prioritized in your schedule.
+
+2. Model
